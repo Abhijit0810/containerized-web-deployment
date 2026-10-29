@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: web-production
+  labels:
+    app.kubernetes.io/name: containerized-web-deployment
+    app.kubernetes.io/environment: production
